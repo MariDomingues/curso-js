@@ -1,9 +1,16 @@
 //import {ContaCorrente} from './model/vo/ContaCorrente.js'
 
-class Cliente {
+export class Cliente {
 
     nome;
-    cpf;
-}
+    _cpf;
 
-export { Cliente }
+    constructor(pNome, pCpf) {
+        this.nome = pNome;
+        this._cpf = pCpf
+    }
+
+    get cpf() {
+        return this._cpf;
+    }
+}
