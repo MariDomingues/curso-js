@@ -1,0 +1,21 @@
+{
+    "name": "bytebank",
+    "version": "1.0.0",
+    "description": "Curso sobre orientação a objeto no JS",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MariDomingues/curso-js.git"
+    },
+    "author": "Mariane",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/MariDomingues/curso-js/issues"
+    },
+    "homepage": "https://github.com/MariDomingues/curso-js#readme",
+    "type": "module"
+  }
